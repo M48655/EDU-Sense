@@ -1,0 +1,136 @@
+/* الخلفية العامة */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+}
+
+/* خلفية الهيرو */
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+/* محتوى الهيرو */
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* زر البدء */
+.start-button {
+  text-decoration: none;
+  background-color: white;
+  color: #0077b6;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* صندوق السؤال */
+#question-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #ffffffdd;
+  padding: 15px 20px;
+  border: 2px solid #0077b6;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #333;
+  max-width: 80%;
+}
+
+/* مشغل الصوت */
+#audioPlayback {
+  margin-top: 10px;
+}
+
+/* صندوق التحكم في الصوت */
+.audio-controls {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: #ffffffdd;
+  padding: 12px;
+  border: 2px solid #0077b6;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* تنسيق الأزرار */
+button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #0077b6;
+  color: white;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005f8e;
+}
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#question-box {
+  position: relative;
+  margin: 30px auto;
+  background: #ffffffcc;
+  padding: 15px;
+  border: 2px solid #000;
+  font-size: 20px;
+  width: fit-content;
+  max-width: 80%;
+  text-align: center;
+}
+
+#audioPlayback {
+  margin-top: 10px;
+}
+
+.audio-controls {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: #fff;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+
+  

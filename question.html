@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduSense - Question</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- عنوان الصفحة -->
+  <header>
+    <h1>🧠 Question</h1>
+  </header>
+
+  <!-- سؤال الجهاز الهضمي -->
+  <div id="question-box">
+    ❓ What is the main function of the digestive system?
+  </div>
+
+  <!-- فيديو الكاميرا -->
+  <video id="video" autoplay playsinline style="display:none;"></video>
+
+  <!-- تتبع اليد -->
+  <canvas id="canvas"></canvas>
+
+  <!-- رسالة عند رفع اليد -->
+  <div id="message"></div>
+
+  <!-- أزرار تسجيل الصوت -->
+  <div class="audio-controls">
+    <button onclick="startRecording()">🎙️ Start Recording</button>
+    <button onclick="stopRecording()">⏹️ Stop Recording</button>
+    <audio id="audioPlayback" controls></audio>
+  </div>
+
+  <!-- مكتبات MediaPipe -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+
+  <!-- ملف الجافاسكربت -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
